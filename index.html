@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/CheckCode.css">
+    <link rel="stylesheet" href="./styles/CheckCountry.css">
+    <title>Scanner Operators</title>
+</head>
+
+<body>
+    <h1 class="title">Scanner Operators</h1>
+    <hr class="under-title-hr">
+    <!-- ============================== -->
+    <h1 class="title">Check to Code</h1>
+    <div id="block-all-components-code">
+        <div id="input-block">
+            <p>Enter code phone (Example '+380, +7'): </p>
+            <input id="input-enter-code" type="text" placeholder="Enter code..." />
+            <button id="check-btn" type="button" onclick="GetData()"> Check code </button>
+            <button id="clear-btn" type="button" onclick="ClearInput()"> Clear input </button>
+        </div>
+        <div id="output-block">
+            <p>Country: <span id="show-country">default</span>;</p>
+        </div>
+    </div>
+    <!-- ================================ -->
+    <h1 class="title">Check to Country</h1>
+    <div id="block-all-components-country">
+        <div id="input-block-country">
+            <p>Enter country (Example 'Ukraine, Russia'): </p>
+            <input id="input-enter-country" type="text" placeholder="Enter country..." />
+            <button id="check-btn-country" type="button" onclick="GetDataCountry()"> Check country </button>
+            <button id="clear-btn-country" type="button" onclick="ClearInputCountry()"> Clear input </button>
+        </div>
+        <div id="output-block-country">
+            <p>Code: <span id="show-code-country">default</span>;</p>
+        </div>
+    </div>
+
+    <script src="./scripts/CheckCode.js"></script>
+    <script src="./scripts/CheckCountry.js"></script>
+</body>
+
+</html>

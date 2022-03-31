@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(255, 244, 220);
+}
+
+.title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.under-title-hr {
+    width: 500px;
+    height: 5px;
+    background-color: black;
+}
+
+#block-all-components-code {
+    white-space: nowrap;
+}
+#block-all-components-code div {
+    width: 45%;
+    height: 100px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#input-block {
+    margin-left: 15px;
+    border: 5px solid blue;
+}
+
+#input-block p {     
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#output-block p {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+#input-enter-code {
+    border: 1px gray solid;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#check-btn {
+    width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: rgb(74, 74, 243);
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: 1s;
+}
+
+#check-btn:hover {
+    background-color: darkblue;
+    transition: 1s;
+}
+
+#clear-btn {
+    height: 34px;
+    border-radius: 10px;
+    background-color: rgb(253, 129, 129);
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: 1s;
+}
+
+#clear-btn:hover {
+    background-color: darkred;
+    transition: 1s;
+}
+
+#output-block {
+    margin-left: 3%;
+    border: 5px solid green;
+}
